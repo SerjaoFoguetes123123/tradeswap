@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tradeswap",
+  "version": "${version}",
+  "name": "Trade Swap",
+  "description": "Agache + clique direito em um villager segurando um bloco de trabalho para trocar a profissao e rerrolar as negociacoes (estilo Easy Villagers).",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.tradeswap.TradeSwap"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "*",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
